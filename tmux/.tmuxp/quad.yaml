@@ -1,0 +1,8 @@
+session_name: 4-pane-split
+windows:
+  layout: tiled
+  panes:
+    - 
+    - 
+    - 
+    - 

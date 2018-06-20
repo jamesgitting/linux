@@ -1,0 +1,8 @@
+
+session_name: 2-pane-horizontal
+start_directory: ./workspace/
+windows:
+    layout: main-horizontal
+    panes:
+      - echo hello
+      - echo hello

@@ -1,0 +1,7 @@
+
+session_name: 2-pane-vertical
+windows:
+    layout: main-vertical
+    panes:
+      - echo hello
+      - echo hello
