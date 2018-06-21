@@ -1,10 +1,10 @@
 !#/bin/sh
 
-############################################################
-#                                                          #
-# Install script for Ubuntu distros                        #
-#                                                          #
-############################################################
+####################################################################################################
+#                                                                                                  #
+#                                Install script for Ubuntu distros                                 #
+#                                                                                                  #
+####################################################################################################
 
 # Build and Ancillary
 apt-get install -y apt-transport-https
@@ -58,7 +58,7 @@ apt-get install -y code
 apt-get install -y atom
 apt-get install -y docker-ce
 
-########## Administrative ##########
+########################################## Administrative #########################################
 mkdir ~/workspace
 
 # Setup SSH Keys
