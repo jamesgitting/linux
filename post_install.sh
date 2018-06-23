@@ -26,6 +26,7 @@ apt-get install -y dconf-tools
 apt-get install -y chromium-browser
 apt-get install -y clementine
 apt-get install -y docky
+apt-get install -y cairo-dock
 apt-get install -y gimp
 apt-get install -y inkscape
 
