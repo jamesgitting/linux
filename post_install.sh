@@ -68,3 +68,11 @@ if [ ! -f ~/.ssh/id_rsa ]; then
 else
 	echo "SSH key already exists"
 fi
+
+######################################### VirtualBox Mount ########################################
+
+mkdir ~/windows
+mkdir ~/workspace
+
+echo "mount.vboxsf ~/windows windows vboxsf" >> rc.local
+echo "mount.vboxsf ~/workspace workspace vboxsf" >> rc.local
