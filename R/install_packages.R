@@ -5,7 +5,17 @@ pkg_list <- c(
 		"devtools",
 		"roxygen2",
 		"lubridate",
-		"zoo"
+		"zoo",
+		"jsonlite"
 	      )
 
+ml_list <- c(
+		"tensorflow",
+		"keras",
+		"mlr",
+		"caret",
+		"gbm"
+	     )
+
 install.packages(pkg_list, dependencies = TRUE)
+install.packages(ml_list, dependencies = TRUE)
