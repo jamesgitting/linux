@@ -21,6 +21,7 @@ apt-get install -y libssl-dev
 apt-get install -y libcurl4-openssl-dev
 apt-get install -y libopenblas-dev
 apt-get install -y dconf-tools
+apt-get install -y htop
 
 # Useful Programs
 apt-get install -y chromium-browser
